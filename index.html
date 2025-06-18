@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tela Login</title>
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+
+<body class="flex justify-center items-center h-screen bg-gradient-to-r from-[#0E0D10] via-[#0E0D10] to-[#121216]">
+  <main class="max-md:justify-center max-md:rounded-4xl lg:rounded-4xl xl:rounded-4xl container flex justify-between items-center bg-[#070709] w-[1106px] h-[654px] rounded-4xl">
+
+    <section class="max-md:ml-0 form flex flex-col justify-center item ml-[49px] ">
+
+      <div class="flex justify-center items-baseline gap-[5px]">
+        <p class="max-lg:text-4xl font-[700] text-[50px] text-[#e5e7eb] mb-[70px]">Faça seu login
+        <div class="max-lg:w-2 max-lg:h-2 bg-gradient-to-r from-[#4158D0] via-[#C850C0] to-[#FFCC70] w-[12px] h-[12px] rounded-[50%]"></div>
+        </p>
+      </div>
+
+        <label for="email" class="text-[#9ca3af] font-sans mb-3">Email</label>
+        <input type="text" name="text" id="text" class=" w-[355px] h-[55px] rounded-[14.5px] bg-[#111112] mb-6 text-gray-400 text-center text-xl focus:border-2 " />
+
+        <label for="senha" class="text-[#9ca3af] font-sans mb-3">Senha</label>
+        <input type="password" name="senha" id="senha" class=" w-[355px] h-[55px] rounded-[14.5px] bg-[#111112] mb-6 text-gray-400 text-center text-xl" />
+
+        <a href="#" class="text-[#9ca3af] underline text-right">Esqueci minha senha</a>
+
+        <button class="bg-gradient-to-tr from-[#4158d0] via-[#c850c0] to-[#ffcc70] cursor-pointer w-[354] h-[55px] mb-6 rounded-[14.5px] mt-[40px] text-[#fff]font-bold text-2xl text-center text-white">Entrar</button>
+
+        <a href="#" class="text-[#9ca3af] underline text-center mt-2">Ainda não tenho uma conta</a>
+
+    </section>
+
+    <section class="max-sm:hidden max-md:hidden max-lg:rounded-4xl imgs relative w-[600px] h-[654px]">
+
+      <div class="max-lg:w-[365px] max-lg:rounded-4xl max-lg:ml-4 img-foto1 w-full h-full ">
+        <img src="src/img/image 1.png" alt="imagem1" class="w-full h-full object-cover">
+      </div>
+
+      <div class="max-lg:w-[365px] img-foto2 absolute inset-0 z-10 w-[500px] h-[654px] bg-[#070708] opacity-72 backdrop-blur-sm ml-auto rounded-4xl"></div>
+      
+      
+    </section>
+  </main>
+</body>
+
+</html>
